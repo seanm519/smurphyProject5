@@ -1,0 +1,28 @@
+/* This ensures the body takes up the full viewport height */
+html, body {
+    height: 100%;
+}
+
+/* This will center the .container div vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use viewport height to make it center on the entire page */
+}
+
+/* Button styles */
+.btn {
+    width: 150px; /* Set a fixed width for all buttons */
+    margin: 5px; /* Add some space around the buttons */
+}
+
+.carousel-item img {
+    max-height: 500px; /* Limit the image height */
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    padding: 10px;
+}
