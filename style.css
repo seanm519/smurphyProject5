@@ -1,4 +1,4 @@
-/* This ensures the body takes up the full viewport height */
+
 html, body {
     height: 100%;
 }
@@ -9,11 +9,11 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Use viewport height to make it center on the entire page */
+    height: 100vh; 
 }
 
-/* Button styles */
+
 .btn {
-    width: 150px; /* Set a fixed width for all buttons */
-    margin: 5px; /* Add some space around the buttons */
+    width: 150px;
+    margin: 5px;
 }
